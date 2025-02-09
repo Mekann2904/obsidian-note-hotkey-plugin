@@ -1,0 +1,19 @@
+.file-suggest-dropdown {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .file-suggest-dropdown li {
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  .file-suggest-dropdown li:hover {
+    background-color: var(--background-modifier-hover);
+  }
+  
